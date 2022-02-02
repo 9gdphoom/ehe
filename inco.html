@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>iconbar sample</title> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <style> 
+        .icon-bar { 
+            width: 100%; /* Full-width */ background-color: rgb(0, 0, 0); /* Dark-grey background */ overflow: auto; /* Overflow due to float */ } 
+        .icon-bar a { 
+            float: left; /* Float links side by side */ text-align: center; /* Center-align text */ width: 20%; /* Equal width (99 icons with 20% width each = 100%) */ padding: 12px 0; /* Some top and bottom padding */ transition: all 0.3s ease; /* Add transition for hover effects */ color: rgb(236, 236, 236); /* White text color */ font-size: 36px; /* Increased font size */ } 
+        .icon-bar a:hover { 
+            background-color: rgb(153, 119, 231); /* Add a hover color */ } 
+        
+        </style> 
+    </head> 
+    <body> 
+        <!-- Load an icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="class"> 
+            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+            <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            <a href="#"><i class="fa fa-fw fa-globe"></i> globe</a>
+            <a href="#"><i class="fa fa-fw fa-trash"></i> trash</a>
+        </div>
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+          
